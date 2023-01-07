@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/ip_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+             />
+
+        <ImageView
+            android:id="@+id/ip_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/ip_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/ip_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/ip_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/ip_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/ip_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/ip_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/ip_9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/ip_10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/ip_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/ip_12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="6"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/ip_13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            />
+        <ImageView
+            android:id="@+id/ip_15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            />
+
+        <ImageView
+            android:id="@+id/ip_16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+
+            android:layout_marginRight="2dp"
+
+            />
+        <ImageView
+            android:id="@+id/ip_17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+
+            android:layout_marginRight="2dp"
+
+            />
+        <ImageView
+            android:id="@+id/ip_18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+
+            android:layout_marginRight="2dp"
+           />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/ip_19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            />
+
+        <ImageView
+            android:id="@+id/ip_23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/ip_25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+             />
+
+        <ImageView
+            android:id="@+id/ip_26"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_27"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_28"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            />
+
+        <ImageView
+            android:id="@+id/ip_29"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_30"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/ip_31"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_32"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_33"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_34"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_35"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+
+            />
+
+        <ImageView
+            android:id="@+id/ip_36"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

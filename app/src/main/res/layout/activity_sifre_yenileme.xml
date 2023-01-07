@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SifreYenilemeActivity"
+    android:background="@drawable/harrypotter">
+
+    <EditText
+
+        android:id="@+id/edit_usernameD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Kullanıcı Adı"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/edit_emailD"
+        android:layout_below="@+id/edit_usernameD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Email"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/edit_sifre1"
+        android:layout_below="@+id/edit_emailD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Yeni Şifrenizi Giriniz"
+        android:minHeight="48dp" />
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/edit_sifre2"
+        android:layout_below="@+id/edit_sifre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Yeni Şifrenizi Tekrardan Giriniz"
+        android:minHeight="48dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_SifreDegistir"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/edit_sifre2"
+        android:text="Şifreyi Değiştir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

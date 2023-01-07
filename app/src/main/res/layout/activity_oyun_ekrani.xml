@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OyunEkraniActivity"
+    android:background="@drawable/harry">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_TekliOyuncu"
+
+        android:text="Tekli Oyuncu"
+        android:background="@drawable/button_shape"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_CokluOyuncu"
+        android:textSize="18sp"
+        android:text="Çoklu Oyuncu"
+        android:background="@drawable/button_shape"
+        android:layout_below="@+id/btn_TekliOyuncu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

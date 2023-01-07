@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="skor">Skor:</string>
+    <string name="s_re">Süre:</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="m_zik">Müzik:</string>
+    <string name="skor1">Skor:</string>
+    <string name="skor_2">Skor 2:</string>
+</resources>
